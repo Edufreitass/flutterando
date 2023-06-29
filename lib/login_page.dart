@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ola_mundo/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -27,8 +26,7 @@ class _LoginPageState extends State<LoginPage> {
                   Container(
                       width: 200,
                       height: 200,
-                      child: Image.network(
-                          'https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png')),
+                      child: Image.asset('assets/images/logo.png')),
                   Container(
                     height: 20,
                   ),
