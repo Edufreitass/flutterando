@@ -24,6 +24,14 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  Container(
+                      width: 200,
+                      height: 200,
+                      child: Image.network(
+                          'https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png')),
+                  Container(
+                    height: 20,
+                  ),
                   TextField(
                     onChanged: (text) {
                       email = text;
